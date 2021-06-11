@@ -1,0 +1,515 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+header {
+  background-image: url(photos/girl.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+}
+header div {
+  padding-right: 7%;
+  width: 42%;
+}
+header div h1 {
+  text-shadow: 3px 3px 8px black;
+  margin-top: 4%;
+  font-size: 66px;
+  font-weight: 900;
+  margin-bottom: 5%;
+}
+header div p {
+  font-size: 19px;
+  line-height: 28px;
+}
+header div p:first-of-type {
+  margin-bottom: 6%;
+}
+header div p:last-of-type {
+  margin-bottom: 11%;
+}
+header div a {
+  color: white;
+  font-size: 25px;
+  background-color: rgba(97, 97, 247, 0.692);
+  padding: 13px 64px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+header div a:hover {
+  background-color: #3434b6;
+  transition: 0.5s;
+}
+article {
+  background-image: url(photos/sun.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 76%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 11%;
+  padding-right: 13%;
+}
+article div {
+  padding: 3% 7% 5% 5%;
+  width: 32%;
+  height: 76%;
+  background-color: rgba(255, 255, 255, 0.753);
+}
+article div h1 {
+  margin-top: 6%;
+  font-size: 35px;
+}
+article div p {
+  font-size: 19px;
+  margin-bottom: 17%;
+  line-height: 28px;
+}
+article div a {
+  color: #000000;
+  background-color: rgba(97, 97, 247, 0.692);
+  color: white;
+  font-size: 25px;
+  padding: 13px 80px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+article div a:hover {
+  background-color: #3434b6;
+  transition: 0.5s;
+}
+section {
+  background-image: url(photos/addidas.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+}
+section div {
+  width: 49%;
+  height: 80%;
+  margin-top: 3%;
+  margin-right: 5%;
+}
+section div h1 {
+  padding: 20px;
+  font-size: 35px;
+  background-color: rgba(255, 255, 255, 0.548);
+  margin: 0;
+}
+section div p {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.664);
+  font-size: 19px;
+  line-height: 29px;
+}
+section div a {
+  color: #000000;
+  background-color: rgba(97, 97, 247, 0.692);
+  color: white;
+  font-size: 25px;
+  padding: 16px 80px;
+  text-decoration: none;
+  border-radius: 4px;
+  float: right;
+}
+section div a:hover {
+  background-color: #3434b6;
+  transition: 0.5s;
+}
+main {
+  background-image: url(photos/grow.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 96%;
+  height: 160vh;
+  display: grid;
+  grid-gap: 4%;
+  grid-template-columns: repeat(2, 35%);
+  grid-template-rows: repeat(2, 50%);
+  padding: 2% 2% 6% 2%;
+}
+main div {
+  background-color: rgba(255, 255, 255, 0.699);
+  padding: 3% 12% 12% 12%;
+}
+main div h3 {
+  font-size: 29px;
+  font-weight: 100;
+  color: green;
+}
+main div P {
+  line-height: 29px;
+  font-size: 19px;
+}
+main div P::selection {
+  color: blue;
+}
+footer {
+  background-image: url(photos/cloudy.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  width: 95%;
+  height: 100vh;
+  display: grid;
+  grid-column-gap: 7%;
+  grid-template-columns: 30% 57%;
+  padding-left: 5%;
+  position: relative;
+}
+footer div {
+  height: auto;
+}
+footer div:first-of-type {
+  margin-top: 8%;
+}
+footer div h1 {
+  margin-bottom: 3%;
+}
+footer div input {
+  width: 90%;
+  padding: 2% 5%;
+  font-size: 19px;
+  margin-bottom: 5%;
+  background-color: rgba(255, 255, 255, 0.589);
+  border: 1px solid #e4dede;
+}
+footer div textarea {
+  width: 90%;
+  padding: 2% 5%;
+  font-size: 19px;
+  background-color: rgba(255, 255, 255, 0.589);
+  border: none;
+  resize: vertical;
+  margin-bottom: 10%;
+}
+footer div button {
+  color: #000000;
+  background-color: rgba(97, 97, 247, 0.692);
+  color: white;
+  font-size: 25px;
+  padding: 13px 60px;
+  text-decoration: none;
+  border-radius: 8px;
+  float: right;
+  border: none;
+}
+footer div button:hover {
+  background-color: #3434b6;
+  transition: 0.5s;
+}
+footer div:last-of-type {
+  margin-top: 13%;
+  height: 70%;
+  font-size: 19px;
+  line-height: 29px;
+}
+footer div:last-of-type p {
+  color: white;
+}
+footer div:last-of-type p:first-of-type {
+  margin-bottom: 8%;
+}
+footer div:last-of-type p:nth-of-type(2) {
+  font-weight: 900;
+  margin-bottom: 5%;
+}
+footer .text {
+  position: absolute;
+  bottom: 4%;
+  left: 27%;
+  font-size: 20px;
+  color: white;
+}
+footer .text a {
+  text-decoration: none;
+  color: white;
+}
+footer .text a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+@media only screen and (max-width: 1000px) {
+  header {
+    height: 141vh;
+  }
+  article {
+    height: 140vh;
+  }
+  section {
+    height: 135vh;
+  }
+  main {
+    height: 270vh;
+  }
+  footer {
+    height: 138vh;
+  }
+}
+@media only screen and (max-width: 900px) {
+  header {
+    height: 148vh;
+  }
+  article {
+    width: auto;
+    height: 150vh;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  article div {
+    width: 30%;
+  }
+  section {
+    height: 146vh;
+  }
+  main {
+    width: auto;
+    height: 280vh;
+    grid-template-columns: repeat(2, 35%);
+    grid-template-rows: repeat(2, 45%);
+    padding-bottom: 0;
+  }
+  footer {
+    height: 138vh;
+  }
+}
+@media only screen and (max-width: 800px) {
+  header {
+    height: 154vh;
+  }
+  article {
+    width: auto;
+    height: 148vh;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  article div {
+    width: 32%;
+    height: 69%;
+    padding-bottom: 7%;
+  }
+  section {
+    height: 154vh;
+  }
+  main {
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 0;
+    height: 300vh;
+    grid-template-columns: repeat(2, 35%);
+    grid-template-rows: 43% 48%;
+  }
+  footer {
+    height: 138vh;
+  }
+}
+@media only screen and (max-width: 700px) {
+  header {
+    height: 169vh;
+  }
+  article {
+    display: grid;
+    height: 270vh;
+    padding-left: 5%;
+  }
+  article div {
+    width: 40%;
+    height: 65%;
+  }
+  article div:last-of-type {
+    height: 80%;
+  }
+  section {
+    height: 153vh;
+  }
+  section div {
+    margin-right: 16%;
+    width: 54%;
+  }
+  main {
+    height: 390vh;
+    grid-template-columns: repeat(1, 52%);
+    grid-template-rows: repeat(3, 30%);
+    grid-row-gap: 3%;
+    width: auto;
+  }
+  footer {
+    width: auto;
+    height: 320vh;
+    grid-template-columns: repeat(1, 77%);
+    padding-left: 15%;
+  }
+  footer div:first-of-type {
+    height: 80%;
+  }
+  footer div:last-of-type {
+    margin-top: 0;
+    height: 80%;
+  }
+  footer div textarea {
+    margin-bottom: 5%;
+  }
+  footer .text {
+    bottom: 1%;
+    left: 15%;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  header {
+    height: 176vh;
+  }
+  article div {
+    width: 50%;
+  }
+  section {
+    margin-bottom: 0;
+    height: 160vh;
+  }
+  section div {
+    width: 55%;
+    margin-right: 10%;
+  }
+  main {
+    height: 420vh;
+  }
+  footer {
+    height: 290vh;
+  }
+}
+@media only screen and (max-width: 500px) {
+  header {
+    justify-content: center;
+    height: 139vh;
+  }
+  header div {
+    width: 80%;
+  }
+  header div h1 {
+    margin-top: 1%;
+  }
+  article {
+    width: auto;
+    height: 270vh;
+  }
+  article div {
+    padding: 5% 10%;
+    width: 65%;
+  }
+  article div:last-of-type {
+    height: 80%;
+  }
+  section {
+    height: auto;
+  }
+  section div {
+    width: 70%;
+  }
+  main {
+    grid-template-columns: repeat(1, 73%);
+    grid-row-gap: 3%;
+    padding: 4%;
+    width: auto;
+    height: 350vh;
+  }
+  main div {
+    padding: 4% 10%;
+  }
+  footer {
+    width: auto;
+    height: 320vh;
+    grid-template-columns: repeat(1, 95%);
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  footer div:first-of-type {
+    height: 80%;
+  }
+  footer div:last-of-type {
+    margin-top: 0;
+    height: 80%;
+  }
+  footer div textarea {
+    margin-bottom: 5%;
+  }
+  footer .text {
+    bottom: 1%;
+    left: 2%;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 400px) {
+  header {
+    height: 150vh;
+  }
+  article {
+    height: 270vh;
+  }
+  article div {
+    padding: 8% 8%;
+    width: 80%;
+  }
+  section {
+    height: 245vh;
+  }
+  section div {
+    margin-right: 5%;
+    width: 54%;
+  }
+  section div a {
+    font-size: 19px;
+    padding: 14px 61px;
+  }
+  main {
+    height: 320vh;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 3%;
+    width: auto;
+  }
+  footer {
+    height: 300vh;
+  }
+}
+@media only screen and (max-width: 300px) {
+  header {
+    height: 174vh;
+  }
+  article {
+    height: 290vh;
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+  article div {
+    width: 80%;
+  }
+  article div:last-of-type {
+    width: 83%;
+    padding-right: 10%;
+  }
+  article div:last-of-type a {
+    padding: 14px 55px;
+  }
+  section {
+    height: 330vh;
+  }
+  section div {
+    margin-right: 10%;
+  }
+  section div a {
+    font-size: 20px;
+    padding: 16px 80px;
+  }
+  main {
+    height: 420vh;
+  }
+}
